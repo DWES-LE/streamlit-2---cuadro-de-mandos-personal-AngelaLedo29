@@ -15,6 +15,9 @@ Busca una fuente para tus datos. Puedes usar una API de un portal de datos abier
 ## Documentación de los datos
 Documenta los datos que vas a usar y su origen. De dónde los has sacado, fuentes, etc. Describe los campos, los valores, las unidades, etc.
 
+> Voy a usar los datos de peliculas que los he sacado de la web https://zenodo.org/record/5898454#.ZAjcW3bMLIV. Lo que he hecho es descargar el archivo csv y subirlo a mi repositorio. Los datos son de peliculas de la web IMDB. Los campos que tiene son: id, title, synopsis, critic_score, people_score, consensus, total_reviews, total_ratings, type, rating, genre, director. etc... Los valores y las unidades son numeros y texto.
+La descripción de los campos son los datos que tiene cada pelicula.
+
 ## Prepara tu aplicación.
 La aplicación se llamará `app.py`. Añade un `requirements.txt` con las dependencias de tu aplicación. Ve actualizándolo a medida que vayas añadiendo librerías.
 
